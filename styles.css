@@ -26,8 +26,6 @@ nav ul{
     margin-top: 22px;
     padding: 20px;
     border: 1px solid #EBEDEF;
-    
-    
 }
 
 nav ul li {
@@ -98,6 +96,14 @@ nav ul li:nth-child(10) {
     margin-top: 80px;
 }
 
+.separator-article{
+    width: 624px;
+    height: 1px;
+    background: #EBEDEF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .separator-aside{
     width: 1px;
     height: 845px;
@@ -120,7 +126,54 @@ main h1 {
     width: 624px;
     height: 201px;
 }
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
+.first-div-article {
+    display: flex;
+}
+
+.second-div-article {
+    display: flex;
+}
+
+article {
+    width: 200px;
+    height: 300px;
+}
+
+article img {
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+
+article h3 {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #C4170C;
+}
+
+article h2 {
+    width: 192px;
+    height: 84px;
+    font-weight: 700;
+    color: #2F3134;
+    line-height: 25px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+article span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 10px;
+}
 main h3 {
     font-weight: 500;
     font-size: 18px;
@@ -176,6 +229,10 @@ aside .verdades-secretas h2{
     height: 60px;
 }
 
+aside .verdades-secretas span {
+    line-height: 30px;
+}
+
 aside .nos-tempos-do-imperador h2{
     height: 40px;
 }
@@ -187,8 +244,4 @@ aside .box span {
     font-size: 14px;
     color: #2F3134;
     line-height: 19px;
-}
-
-aside .verdades-secretas span {
-    line-height: 30px;
 }
